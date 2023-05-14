@@ -10,8 +10,6 @@ import { BannerComponent } from './components/banner/banner.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
-import { NgCircleProgressModule } from 'ng-circle-progress';
-
 
 @NgModule({
   declarations: [
@@ -26,8 +24,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
