@@ -1,3 +1,31 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialRed{
+  margin-right: 0.5em;
+}
 #logoAP{
   width: 150px;
+}
+img{
+  width: 50px;
+}
+.btn{
+  border-width: medium;
+}
+/**MOBILE**/
+@media (max-width: 575px){
+  .container{
+    flex-direction: column;
+  }
+  .socialRed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .socialRed img{
+    margin: 0.2em;
+  }
 }
